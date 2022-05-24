@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { AppRountingModule } from './app.rounting.module';
 
 import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
@@ -30,8 +31,8 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
   ],
   imports: [
     BrowserModule,
-    FormsModule
-
+    FormsModule,
+    AppRountingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
