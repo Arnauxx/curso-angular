@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Animal } from 'src/app/Animal';
 
-import { ListService } from 'src/app/service/list.service';
+import { ListService } from 'src/app/services/list.service';
 
 @Component({
   selector: 'app-list-render',
